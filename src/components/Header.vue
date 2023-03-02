@@ -9,7 +9,7 @@ import { title } from 'process';
         <li v-for="item in menuItems"
             v-bind:key="item.path">
            
-            <a v-bind:href="item.path">{{ item.name }}</a>
+            <router-link v-bind:to="item.path">{{ item.name }}</router-link>
         </li>
     </ul>
     </header>
