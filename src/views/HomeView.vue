@@ -1,3 +1,4 @@
+
 <template>
   <div class="fillimi">
     <div class="col2">
@@ -56,7 +57,11 @@
                
             </div>
             </div>
+ 
+           
       
+                     
+            
 
 </template>
   
@@ -66,10 +71,18 @@
 <script>
 
 
+
 export default {
+  
   name: 'HomeView',
  
+  
+
+
 }
+
+
+
 </script>
 
 <style>
@@ -154,6 +167,9 @@ h1{
   font-size:small;
   font-family: 'Poppins', sans-serif;
   color: rgb(54, 53, 53);
- }
+}
+
 
 </style>
+
+<Footer/>
